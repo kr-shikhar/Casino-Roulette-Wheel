@@ -61,8 +61,9 @@ int main()
         }
         cout << "\n\n-->Do you want to play again (y/n)? ";
         cin >> choice;
-    }while(choice =='Y'|| choice=='y');
-    cout << "\n\n\n"
+    }
+    while(choice =='Y'|| choice=='y');
+    cout << "\n\n\n";
     cout << "\n\nThanks for playing the game. Your balance is ₹ " << balance << "\n\n";
     return 0;
 }
